@@ -213,14 +213,6 @@ class="article article-type-post"
         <h2 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h2><p>位运算符对整数在内存中的二进制位进行操作。</p>
 <h3 id="按位与运算符（-amp-）"><a href="#按位与运算符（-amp-）" class="headerlink" title="按位与运算符（&amp;）"></a>按位与运算符（&amp;）</h3><p>参加运算的两个数据，按二进制位进行 <code>“与”</code> 运算。</p>
 <p>运算规则： <code>0&amp;0 = 0</code>  <code>0&amp;1 = 0</code>  <code>1&amp;0 = 0</code>  <code>1&amp;1 = 1</code></p>
-<h3 id="按位或运算符"><a href="#按位或运算符" class="headerlink" title="按位或运算符 (|)"></a>按位或运算符 (|)</h3><p>参加运算的两个对象，按二进制位进行 <code>“或”</code> 运算</p>
-<p>运算规则： <code>0|0 = 0</code>  <code>0|1 = 1</code>  <code>1|0 = 1</code>  <code>1|1 = 1</code></p>
-<h3 id="取反运算符"><a href="#取反运算符" class="headerlink" title="取反运算符 (~)"></a>取反运算符 (~)</h3><p>参加运算的一个数据，按照二进制位进行 <code>“取反”</code> 运算</p>
-<p>运算规则：  <code>~1 = 0</code>  <code>~1 = 0</code></p>
-<h3 id="异或运算符"><a href="#异或运算符" class="headerlink" title="异或运算符 (^)"></a>异或运算符 (^)</h3><p>用于比较两个二进制数的相应位。在执行按位异或运算时，如果两个二进制数的相应位都为1或两个二进制数的相应位都为0，则返回0；如果两个二进制数相应位其中一个为1，另一个为0，则返回1</p>
-<p>运算规则：  <code>1^1 = 0</code>  <code>0^0 = 0</code>  <code>1^0 = 1</code>  <code>0^1 = 1</code> </p>
-<h3 id="位移运算符-“-lt-lt-”-和-“-gt-gt-”"><a href="#位移运算符-“-lt-lt-”-和-“-gt-gt-”" class="headerlink" title="位移运算符 “&lt;&lt;” 和 “&gt;&gt;”"></a>位移运算符 “&lt;&lt;” 和 “&gt;&gt;”</h3><p>位移运算符分为左位移运算符 “&lt;&lt;” 和右位移运算符 “&gt;&gt;” ，分别用于向左和向右执行位移运算。对于<code>X&lt;&lt;N</code> 或 <code>X&gt;&gt;N</code> 形式的运算，含义是将X向左或者向右移动N位，X的类型可以是 <code>int</code>, <code>long</code>, <code>ulong</code>, <code>byte</code>, <code>sbyte</code>, <code>short</code>, <code>ushort</code>。需要注意的是, <code>byte</code>, <code>sbyte</code>, <code>short</code> 和 <code>ushort</code> 类型的值在进行位移操作后值的类型将自动转化成 int 类型</p>
-
         
     </div>
     </div>
